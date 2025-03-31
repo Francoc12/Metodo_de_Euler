@@ -29,7 +29,7 @@ def main():
     ecuacion = input("Introduce la ecuación diferencial (dy/dx = f(x, y)): ")
     f = eval(f"lambda x, y: {ecuacion}")
     
-
+    #ingreso de datos
     x0 = float(input("Introduce el valor inicial de x (x0): "))
     y0 = float(input("Introduce el valor inicial de y (y0): "))
     xf = float(input("Introduce el valor final de x (xf): "))
